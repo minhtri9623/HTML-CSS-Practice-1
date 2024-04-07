@@ -1,0 +1,10 @@
+.btn-primary {
+  padding: 10px 20px;
+  background: var(--color-primary);
+  font-size: var(--font-size-2xs);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-4xs);
+  color: var(--color-secondary);
+  border-radius: var(--border-radius-default);
+  transition: 0.5s all ease;
+}
