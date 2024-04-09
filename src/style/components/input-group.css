@@ -1,0 +1,27 @@
+.input-group {
+  background-color: var(--color-secondary);
+  width: 335px;
+  display: flex;
+  padding: 5px 5px 5px 20px;
+  border-radius: var(--border-radius-default);
+}
+
+.input-field {
+  width: 100%;
+  box-sizing: border-box;
+  margin-right: 10px;
+}
+
+/* tablet */
+@media (min-width: 768px) {
+  .input-group {
+    width: 400px;
+  }
+}
+
+/* desktop */
+@media (min-width: 1440px) {
+  .input-group {
+    width: 500px;
+  }
+}
