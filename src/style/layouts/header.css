@@ -10,11 +10,20 @@
   padding: 0 20px;
 }
 
-.header-logo {
-  background: url(../../assets/icons/navbar-icon.svg);
+.btn-menu {
   width: 32px;
   height: 32px;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.btn-line {
+  width: 22px;
+  height: 2.5px;
+  border-radius: 2px;
+  background: var(--color-black);
 }
 
 .navbar {
@@ -22,7 +31,7 @@
 }
 
 .navbar-link {
-  font-size: var(--font-size-2xs);
+  font-size: var(--font-size-3xs);
   font-weight: var(--font-weight-bold);
   line-height: var(--line-height-4xs);
   color: var(--color-black);
@@ -39,7 +48,7 @@
     padding-right: 50px;
   }
 
-  .header-logo {
+  .btn-menu {
     visibility: hidden;
   }
 
@@ -64,8 +73,7 @@
   }
 
   .header-content {
-    max-width: 1440px;
-    padding-right: 140px;
+    padding-right: 0;
     width: 100%;
     gap: 40px;
   }

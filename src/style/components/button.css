@@ -1,7 +1,7 @@
 .btn-primary {
   padding: 10px 20px;
   background: var(--color-primary);
-  font-size: var(--font-size-2xs);
+  font-size: var(--font-size-3xs);
   font-weight: var(--font-weight-bold);
   line-height: var(--line-height-4xs);
   color: var(--color-secondary);
