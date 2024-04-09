@@ -28,7 +28,7 @@
   --font-size-2xl: 48px;
   --font-size-3xl: 56px;
   --font-size-4xl: 58px;
-  --font-size-xxl: 64px;
+  --font-size-5xl: 64px;
 
   /* line height */
   --line-height-default: normal;
@@ -47,7 +47,7 @@
   --line-height-3xl: 58px;
   --line-height-4xl: 64px;
   --line-height-5xl: 74px;
-  --line-height-xxl: 82px;
+  --line-height-6xl: 82px;
 
   /* font weight */
   --font-weight-default: 400;
