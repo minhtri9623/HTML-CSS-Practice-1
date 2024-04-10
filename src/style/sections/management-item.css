@@ -1,0 +1,107 @@
+.management-item {
+  padding: 60px 20px;
+}
+
+.heading-content {
+  flex-direction: column;
+  text-align: center;
+}
+
+.management-item-heading {
+  font-family: ManropeExtraBold, sans-serif;
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-extra-bold);
+  line-height: var(--line-height-4sm);
+  color: var(--color-black);
+}
+
+.management-item-decs {
+  margin-top: 15px;
+  font-size: var(--font-size-4xs);
+  font-weight: var(--font-weight-default);
+  line-height: var(--line-height-3xs);
+  color: var(--color-black);
+  letter-spacing: 0.2px;
+}
+
+.management-item-category-list {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 80px;
+  margin-top: 40px;
+}
+
+.management-item-category:nth-child(2) .circle-icon {
+  background-color: var(--color-purple);
+  top: 5px;
+  right: 50%;
+}
+
+.management-item-category:nth-child(3) .circle-icon {
+  background-color: var(--color-blue);
+  top: 5px;
+  right: calc(50% - 50px);
+}
+
+.management-item-category:nth-child(4) .circle-icon {
+  background-color: var(--color-light-blue);
+  top: 5px;
+  right: 40%;
+}
+
+.management-item-category:nth-child(5) .circle-icon {
+  background-color: var(--color-sunset-orange);
+  right: calc(50% - 45px);
+}
+
+.management-item-category:nth-child(6) .circle-icon {
+  background-color: var(--color-yellow-orange);
+  top: -10px;
+  right: 10%;
+}
+
+/* tablet */
+@media (min-width: 768px) {
+  .management-item {
+    padding: 120px 86px;
+  }
+
+  .management-item-heading {
+    font-size: var(--font-size-lg);
+    line-height: var(--line-height-2xl);
+  }
+
+  .management-item-decs {
+    font-size: var(--font-size-md);
+    line-height: var(--line-height-lg);
+    margin-top: 30px;
+  }
+
+  .management-item-category-list {
+    grid-template-columns: repeat(2, 2fr);
+    margin-top: 90px;
+  }
+
+  .management-item-category {
+    padding: 0 30px;
+  }
+}
+
+/* desktop */
+@media (min-width: 1440px) {
+  .management-item {
+    padding: 120px 0;
+  }
+
+  .management-item-decs {
+    padding: 0 50px;
+  }
+
+  .management-item-category-list {
+    grid-template-columns: repeat(3, 3fr);
+  }
+
+  .management-item-category {
+    padding: 0 10px;
+  }
+}

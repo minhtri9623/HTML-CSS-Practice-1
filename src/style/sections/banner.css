@@ -8,6 +8,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0 20px;
+  padding-bottom: 84px;
 }
 
 .banner-content {
@@ -84,8 +85,8 @@
 
   .banner-title {
     margin-top: 200px;
-    font-size: var(--font-size-xxl);
-    line-height: var(--line-height-xxl);
+    font-size: var(--font-size-5xl);
+    line-height: var(--line-height-6xl);
     width: 765px;
   }
 
