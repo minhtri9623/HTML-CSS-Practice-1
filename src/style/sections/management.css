@@ -2,17 +2,13 @@
   padding: 60px 20px;
 }
 
-.heading-content {
-  flex-direction: column;
-  text-align: center;
-}
-
 .management-heading {
   font-family: ManropeExtraBold, sans-serif;
   font-size: var(--font-size-md);
   font-weight: var(--font-weight-extra-bold);
   line-height: var(--line-height-4sm);
   color: var(--color-black);
+  text-align: center;
 }
 
 .management-description {
@@ -22,6 +18,7 @@
   line-height: var(--line-height-3xs);
   color: var(--color-black);
   letter-spacing: 0.2px;
+  text-align: center;
 }
 
 .management-category-list {
@@ -29,35 +26,6 @@
   grid-template-columns: repeat(1, 1fr);
   gap: 80px;
   margin-top: 40px;
-}
-
-.management-category:nth-child(2) .circle-icon {
-  background-color: var(--color-purple);
-  top: 5px;
-  right: 50%;
-}
-
-.management-category:nth-child(3) .circle-icon {
-  background-color: var(--color-blue);
-  top: 5px;
-  right: calc(50% - 50px);
-}
-
-.management-category:nth-child(4) .circle-icon {
-  background-color: var(--color-light-blue);
-  top: 5px;
-  right: 40%;
-}
-
-.management-category:nth-child(5) .circle-icon {
-  background-color: var(--color-sunset-orange);
-  right: calc(50% - 45px);
-}
-
-.management-category:nth-child(6) .circle-icon {
-  background-color: var(--color-yellow-orange);
-  top: -10px;
-  right: 10%;
 }
 
 /* tablet */
@@ -69,20 +37,45 @@
   .management-heading {
     font-size: var(--font-size-lg);
     line-height: var(--line-height-2xl);
+    text-align: center;
   }
 
   .management-description {
     font-size: var(--font-size-md);
     line-height: var(--line-height-lg);
     margin-top: 30px;
+    text-align: center;
   }
 
   .management-category-list {
     grid-template-columns: repeat(2, 2fr);
     margin-top: 90px;
+    grid-template-areas:
+      "analysis chart-bar"
+      "star chart-pie-slice"
+      "crown prototype";
   }
 
-  .management-category {
+  .category-analysis {
+    grid-area: analysis;
+  }
+  .category-star {
+    grid-area: star;
+  }
+  .category-crown {
+    grid-area: crown;
+  }
+  .category-chart-bar {
+    grid-area: chart-bar;
+  }
+  .category-chart-pie-slice {
+    grid-area: chart-pie-slice;
+  }
+  .category-prototype {
+    grid-area: prototype;
+  }
+
+  .category {
     padding: 0 30px;
   }
 }
@@ -99,9 +92,12 @@
 
   .management-category-list {
     grid-template-columns: repeat(3, 3fr);
+    grid-template-areas:
+      "analysis star crown"
+      "chart-bar chart-pie-slice prototype";
   }
 
-  .management-category {
+  .category {
     padding: 0 10px;
   }
 }

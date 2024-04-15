@@ -32,3 +32,32 @@
   right: calc(50% - 40px);
   z-index: -1;
 }
+
+.circle-star {
+  background-color: var(--color-purple);
+  top: 5px;
+  right: 50%;
+}
+
+.circle-crown {
+  background-color: var(--color-blue);
+  top: 5px;
+  right: calc(50% - 50px);
+}
+
+.circle-chart-bar {
+  background-color: var(--color-light-blue);
+  top: 5px;
+  right: 40%;
+}
+
+.circle-chart-pie-slice {
+  background-color: var(--color-sunset-orange);
+  right: calc(50% - 45px);
+}
+
+.circle-prototype {
+  background-color: var(--color-yellow-orange);
+  top: -10px;
+  right: 10%;
+}
