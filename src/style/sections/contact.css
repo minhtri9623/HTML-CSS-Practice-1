@@ -1,0 +1,40 @@
+.contact {
+  padding: 90px 20px;
+}
+
+.contact-content {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+  text-align: center;
+}
+
+.contact-frame {
+  position: relative;
+}
+
+.circle-contact {
+  background-color: var(--color-primary);
+}
+
+.contact-title {
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-4sm);
+  font-weight: var(--font-weight-extra-bold);
+  color: var(--color-black);
+  text-align: center;
+  font-family: ManropeExtraBold, sans-serif;
+}
+
+.contact-description {
+  font-size: var(--font-size-3xs);
+  line-height: var(--line-height-sm);
+  color: var(--color-black);
+  text-align: center;
+  margin-top: 12px;
+}
+
+.btn-contact {
+  width: fit-content;
+  margin: 31px auto;
+}

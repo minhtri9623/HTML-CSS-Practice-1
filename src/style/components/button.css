@@ -23,6 +23,13 @@
   line-height: var(--line-height-xs);
 }
 
+.btn-large {
+  padding: 11px 20px;
+  font-weight: var(--font-weight-sm);
+  font-size: var(--font-size-xs);
+  line-height: var(--line-height-4xs);
+}
+
 /* tablet */
 @media (min-width: 768px) {
   .btn-small {
@@ -39,5 +46,9 @@
 @media (min-width: 1440px) {
   .btn-medium {
     padding: 16px 30px;
+  }
+
+  .btn-large {
+    font-size: var(--font-size-3sm);
   }
 }
