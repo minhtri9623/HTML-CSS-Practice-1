@@ -1,0 +1,63 @@
+.category-title {
+  font-family: ManropeExtraBold, sans-serif;
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-4sm);
+  font-weight: var(--font-weight-extra-bold);
+  color: var(--color-black);
+}
+
+.category-decs {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-default);
+  line-height: var(--line-height-2sm);
+  color: var(--color-black);
+  letter-spacing: 0.2px;
+  margin-top: 10px;
+}
+
+.category-frame {
+  position: relative;
+  width: 76px;
+  height: 76px;
+  margin-top: 10px;
+}
+
+.circle-icon {
+  width: 45px;
+  height: 45px;
+  background-color: var(--color-pink);
+  position: absolute;
+  border-radius: 50%;
+  top: 0;
+  right: calc(50% - 40px);
+  z-index: -1;
+}
+
+.circle-star {
+  background-color: var(--color-purple);
+  top: 5px;
+  right: 50%;
+}
+
+.circle-crown {
+  background-color: var(--color-blue);
+  top: 5px;
+  right: calc(50% - 50px);
+}
+
+.circle-chart-bar {
+  background-color: var(--color-light-blue);
+  top: 5px;
+  right: 40%;
+}
+
+.circle-chart-pie-slice {
+  background-color: var(--color-sunset-orange);
+  right: calc(50% - 45px);
+}
+
+.circle-prototype {
+  background-color: var(--color-yellow-orange);
+  top: -10px;
+  right: 10%;
+}
