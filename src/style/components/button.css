@@ -16,8 +16,19 @@
   flex-shrink: 0;
 }
 
+.btn-small {
+  padding: 12px;
+  width: 100%;
+  font-size: var(--font-size-2xs);
+  line-height: var(--line-height-xs);
+}
+
 /* tablet */
 @media (min-width: 768px) {
+  .btn-small {
+    width: 160px;
+  }
+
   .btn-medium {
     font-size: var(--font-size-2xs);
     line-height: var(--line-height-2md);
