@@ -1,0 +1,21 @@
+.box-logo {
+  height: 66px;
+  background-color: var(--color-secondary);
+  box-shadow: var(--box-shadow--default);
+  padding: 15px 18px;
+  display: flex;
+  border-radius: 16px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.hidden-logo {
+  display: none;
+}
+
+/* tablet */
+@media (min-width: 768px) {
+  .hidden-logo {
+    display: grid;
+  }
+}
