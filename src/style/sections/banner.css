@@ -1,0 +1,97 @@
+.banner {
+  background-image: radial-gradient(
+      111.67% 156.26% at 141.47% 78.12%,
+      #fff,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(../../assets/images/banner-mobile-image.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 20px;
+  padding-bottom: 84px;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.banner-title {
+  font-family: ManropeExtraBold, sans-serif;
+  margin-top: 137px;
+  font-size: var(--font-size-xl);
+  line-height: var(--line-height-3xl);
+  font-weight: var(--font-weight-extra-bold);
+  color: var(--color-black);
+}
+
+.banner-decs {
+  margin-top: 30px;
+  font-size: var(--font-size-4xs);
+  line-height: var(--line-height-2xs);
+  font-weight: var(--font-weight-default);
+  color: var(--color-black);
+}
+
+.input-subscribe {
+  margin-top: 43px;
+}
+
+/* tablet */
+@media (min-width: 768px) {
+  .banner {
+    background-image: url(../../assets/images/banner-tablet-image.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 80px;
+    padding-bottom: 127px;
+  }
+
+  .banner-content {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .banner-title {
+    font-size: var(--font-size-3xl);
+    line-height: var(--line-height-5xl);
+    white-space: pre-line;
+    margin-top: 161px;
+    width: 665px;
+  }
+
+  .banner-decs {
+    font-size: var(--font-size-2xs);
+    line-height: var(--line-height-2sm);
+    white-space: pre-line;
+    margin-top: 20px;
+  }
+
+  .banner-form {
+    margin-top: 20px;
+  }
+}
+
+/* desktop */
+@media (min-width: 1440px) {
+  .banner {
+    background-image: url(../../assets/images/banner-image.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 148px;
+  }
+
+  .banner-title {
+    margin-top: 200px;
+    font-size: var(--font-size-5xl);
+    line-height: var(--line-height-6xl);
+    width: 765px;
+  }
+
+  .banner-decs {
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-md);
+  }
+}

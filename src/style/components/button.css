@@ -1,0 +1,32 @@
+.btn-primary {
+  padding: 14px 20px;
+  background: var(--color-primary);
+  font-size: var(--font-size-3xs);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-4xs);
+  color: var(--color-secondary);
+  border-radius: var(--border-radius-default);
+  transition: 0.5s all ease;
+}
+
+.btn-medium {
+  padding: 16px;
+  font-size: var(--font-size-3xs);
+  line-height: var(--line-height-4xs);
+  flex-shrink: 0;
+}
+
+/* tablet */
+@media (min-width: 768px) {
+  .btn-medium {
+    font-size: var(--font-size-2xs);
+    line-height: var(--line-height-2md);
+  }
+}
+
+/* desktop */
+@media (min-width: 1440px) {
+  .btn-medium {
+    padding: 16px 30px;
+  }
+}
